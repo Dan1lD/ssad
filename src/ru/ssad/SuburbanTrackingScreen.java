@@ -9,7 +9,7 @@ public class SuburbanTrackingScreen extends TrackingScreen {
     }
 
     @Override
-    public void drawHeadOfTimetable() {
+    protected void drawHeadOfTimetable() {
         System.out.println("ID      Departure");
     }
 }
