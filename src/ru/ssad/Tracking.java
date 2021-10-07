@@ -1,7 +1,6 @@
 package ru.ssad;
 
 public interface Tracking {
-
-    TrackingSystem system = TrackingSystem.getInstance();
-    Timetable showTimetable();
+    // Somehow gets information from database
+    String getInfoFromDB();
 }

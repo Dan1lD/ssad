@@ -1,11 +1,21 @@
 package ru.ssad;
 
+import java.util.ArrayList;
+
 public abstract class TrackingScreen {
 
-    public abstract Tracking createScreen();
+    ArrayList<Tracking> trackings = new ArrayList<>();
 
-    public void drawTimetable(Timetable timetable) {
+    public abstract Tracking createTracking(int id);
+    /* Creates tracking that can get information from database using info about type of screen */
 
+    public void drawTimetable() {
+        this.drawHeadOfTimetable();
+        for(Tracking tracking: trackings) {
+            System.out.println(tracking.getInfoFromDB() + "\n");
+        }
     }
+
+    protected abstract void drawHeadOfTimetable();
 }
 
