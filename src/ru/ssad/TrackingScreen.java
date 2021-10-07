@@ -1,11 +1,10 @@
 package ru.ssad;
 
 public abstract class TrackingScreen {
-    public Tracking createScreen() {
-        return null;
-    }
 
-    public void drawTimetable() {
+    public abstract Tracking createScreen();
+
+    public void drawTimetable(Timetable timetable) {
 
     }
 }
