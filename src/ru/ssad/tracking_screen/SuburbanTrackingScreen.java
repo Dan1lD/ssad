@@ -1,7 +1,7 @@
-package ru.ssad.tracking_screens;
+package ru.ssad.tracking_screen;
 
-import ru.ssad.trackings.SuburbanTracking;
-import ru.ssad.trackings.Tracking;
+import ru.ssad.tracking.SuburbanTracking;
+import ru.ssad.tracking.Tracking;
 
 public class SuburbanTrackingScreen extends TrackingScreen {
 

@@ -1,4 +1,4 @@
-package ru.ssad.trackings;
+package ru.ssad.tracking;
 
 public class LongDistantTracking implements Tracking {
     int id;

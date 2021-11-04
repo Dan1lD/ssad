@@ -1,4 +1,4 @@
-package ru.ssad.trackings;
+package ru.ssad.tracking;
 
 public class SuburbanTracking implements Tracking {
     int id;

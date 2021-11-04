@@ -1,7 +1,7 @@
-package ru.ssad.tracking_screens;
+package ru.ssad.tracking_screen;
 
-import ru.ssad.trackings.LongDistantTracking;
-import ru.ssad.trackings.Tracking;
+import ru.ssad.tracking.LongDistantTracking;
+import ru.ssad.tracking.Tracking;
 
 public class LongDistantTrackingScreen extends TrackingScreen {
 

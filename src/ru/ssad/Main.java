@@ -1,8 +1,8 @@
 package ru.ssad;
 
-import ru.ssad.tracking_screens.FreightSubstationScreen;
-import ru.ssad.tracking_screens.LongDistantTrackingScreen;
-import ru.ssad.tracking_screens.SuburbanTrackingScreen;
+import ru.ssad.tracking_screen.FreightSubstationScreen;
+import ru.ssad.tracking_screen.LongDistantTrackingScreen;
+import ru.ssad.tracking_screen.SuburbanTrackingScreen;
 
 // Example of usage
 public class Main {
