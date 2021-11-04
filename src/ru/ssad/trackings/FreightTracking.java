@@ -1,4 +1,4 @@
-package ru.ssad;
+package ru.ssad.trackings;
 
 public class FreightTracking implements Tracking {
     int id;

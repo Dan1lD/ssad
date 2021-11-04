@@ -1,9 +1,9 @@
-package ru.ssad;
+package ru.ssad.trackings;
 
 public class LongDistantTracking implements Tracking {
     int id;
 
-    LongDistantTracking(int id) {
+    public LongDistantTracking(int id) {
         this.id = id;
     }
 

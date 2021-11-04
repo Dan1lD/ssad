@@ -1,9 +1,9 @@
-package ru.ssad;
+package ru.ssad.trackings;
 
 public class SuburbanTracking implements Tracking {
     int id;
 
-    SuburbanTracking(int id) {
+    public SuburbanTracking(int id) {
         this.id = id;
     }
 

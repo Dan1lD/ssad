@@ -1,4 +1,7 @@
-package ru.ssad;
+package ru.ssad.tracking_screens;
+
+import ru.ssad.trackings.FreightTracking;
+import ru.ssad.trackings.Tracking;
 
 public class FreightSubstationScreen extends TrackingScreen {
 

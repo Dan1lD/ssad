@@ -1,4 +1,6 @@
-package ru.ssad;
+package ru.ssad.tracking_screens;
+
+import ru.ssad.trackings.Tracking;
 
 import java.util.ArrayList;
 
