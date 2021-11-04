@@ -1,6 +1,7 @@
 package ru.ssad.admin;
 
 public interface AdminPanel {
-
-    public void changeInfoInDB(String info);
+    // Implements some GUI to work with DB
+    // GUI is different for every type of panel
+    public void changeInfoInDB();
 }

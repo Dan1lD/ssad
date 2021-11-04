@@ -16,8 +16,6 @@ public class Admin {
     }
 
     public void changeSchedule() {
-        // Here we can implement some GUI that helps to change schedule
-        String info = "info";
-        this.panel.changeInfoInDB(info);
+        this.panel.changeInfoInDB();
     }
 }
