@@ -16,6 +16,6 @@ public class Admin {
     }
 
     public void changeSchedule() {
-        this.panel.changeInfoInDB();
+        this.panel.drawGUI();
     }
 }
