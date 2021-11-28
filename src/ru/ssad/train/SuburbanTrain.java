@@ -14,7 +14,7 @@ public class SuburbanTrain extends Train {
     }
 
     @Override
-    void notifyAdmin(int delay, Admin admin) {
+    protected void notifyAdmin(int delay, Admin admin) {
 
     }
 }

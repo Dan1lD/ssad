@@ -1,12 +1,13 @@
 package ru.ssad.tracking_screen;
 
+import ru.ssad.admin.Admin;
 import ru.ssad.tracking.Tracking;
 
 import java.util.ArrayList;
 
 public abstract class TrackingScreen {
-
     ArrayList<Tracking> trackings = new ArrayList<>();
+    private Admin adminOfThisStation;
 
     public abstract Tracking createTracking(int id);
     /* Creates tracking that can get information from database using info about type of screen */
