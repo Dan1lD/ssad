@@ -22,4 +22,8 @@ public class StationAdmin extends Admin {
     public void handleServerNotification(TrackingScreen table) {
         // Shows notification
     }
+
+    public void changeSchedule() {
+        this.panel.drawGUI();
+    }
 }

@@ -1,17 +1,16 @@
 package ru.ssad.train;
 
-import ru.ssad.admin.Admin;
-import ru.ssad.db.LongDistantDB;
+import ru.ssad.admin.StationAdmin;
 
 public class LongDistantTrain extends Train {
 
     @Override
-    void setAdminOfNextStation(Admin admin) {
+    void setAdminOfNextStation(StationAdmin admin) {
         this.adminOfNextStation = admin;
     }
 
     @Override
-    protected void notifyAdmin(int delay, Admin admin) {
+    protected void notifyAdmin(int delay, StationAdmin admin) {
 
     }
 }

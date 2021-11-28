@@ -1,11 +1,10 @@
 package ru.ssad.train;
 
-import ru.ssad.admin.Admin;
-import ru.ssad.db.Database;
+import ru.ssad.admin.StationAdmin;
 
 public abstract class Train {
-    Admin adminOfNextStation;
+    StationAdmin adminOfNextStation;
 
-    abstract void setAdminOfNextStation(Admin admin);
-    abstract void notifyAdmin(int delay, Admin admin);
+    abstract void setAdminOfNextStation(StationAdmin admin);
+    abstract void notifyAdmin(int delay, StationAdmin admin);
 }

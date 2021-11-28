@@ -1,7 +1,7 @@
 package ru.ssad.admin;
 
-public class Admin {
-    private AdminPanel panel;
+abstract public class Admin {
+    protected AdminPanel panel;
 
     public Admin(String panelType) {
         switch (panelType) {
@@ -16,7 +16,5 @@ public class Admin {
         return panel;
     }
 
-    public void changeSchedule() {
-        this.panel.drawGUI();
-    }
+    abstract void changeSchedule();
 }
