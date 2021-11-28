@@ -4,13 +4,13 @@ import ru.ssad.admin.Admin;
 
 public class LocalDB {
     private Admin admin;
-    private Database globalDB;
+    private Database DB;
 
-    public void pullFrommDB() {
+    public void checkData(int id, int delay, String station) {
         // Pulls data from global DB to local DB
     }
 
-    public void pushToDB() {
+    private void sendUpdateToDatabase(int id, int delay, String station) {
         // Push changes from local DB to global DB
     }
 
