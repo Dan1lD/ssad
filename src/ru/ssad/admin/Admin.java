@@ -19,8 +19,4 @@ public class Admin {
     public void changeSchedule() {
         this.panel.drawGUI();
     }
-
-    public void handleNotification(int delay) {
-        // Shows notification
-    }
 }

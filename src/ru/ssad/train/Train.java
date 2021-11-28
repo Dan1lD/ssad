@@ -4,14 +4,9 @@ import ru.ssad.admin.Admin;
 import ru.ssad.db.Database;
 
 public abstract class Train {
-    Database db = null;
+    Database db;
+    Admin adminOfNextStation;
 
-    private Admin getAdminOfNextStation() {
-        // Somehow gets admin from DB
-        return null;
-    }
-
-    private void notifyAdmin(int delay, Admin admin) {
-        admin.handleNotification(delay);
-    }
+    abstract void setAdminOfNextStation(Admin admin);
+    abstract void notifyAdmin(int delay, Admin admin);
 }
